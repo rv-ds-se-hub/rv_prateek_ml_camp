@@ -1,0 +1,39 @@
+[project]
+name = "ml-course"
+version = "0.1.0"
+description = "Source code and assignments for the ML course."
+requires-python = ">=3.12"
+
+# Core dependencies (equivalent to requirements.txt)
+dependencies = [
+    "pandas",
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "seaborn",
+    "jupyterlab",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+    "uv",
+]
+
+# --- Tool Configurations ---
+
+[tool.ruff]
+line-length = 88
+
+[tool.ruff.lint]
+# Linter-specific settings go here
+select = ["E", "F", "W", "I"] # Standard flake8 rules + isort
+
+[tool.pytest.ini_options]
+minversion = "6.0"
+addopts = "-ra -q"
+testpaths = [
+    "tests", # For the main project tests
+    "assignments", # To discover tests within each assignment
+]

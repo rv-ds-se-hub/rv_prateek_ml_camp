@@ -19,6 +19,15 @@ This is our go-to library for all external books, articles, tools, and datasets 
 | **`ruff`** | [github.com/astral-sh/ruff](https://github.com/astral-sh/ruff)            | An extremely fast Python linter and code formatter.             |
 | **Tabulator** | [github.com/tabulator-app/tabulator](https://github.com/tabulator-app/tabulator) | An excellent tool for viewing CSV/Parquet files.                |
 
+
+### Videos
+
+| Tool            | Link                                                                      | Purpose                                                         |
+| :-------------- | :------------------------------------------------------------------------ | :-------------------------------------------------------------- |
+| **`makefile`** | [https://www.youtube.com/watch?v=Yt-UF7fNLJE](https://www.youtube.com/watch?v=Yt-UF7fNLJE) | A file that automates common development tasks. |
+| **build systems** | [https://www.youtube.com/watch?v=ElBVDVc6wRc](https://www.youtube.com/watch?v=ElBVDVc6wRc) | Compiling source code into executable code. |
+
+
 ### 🔗 APIs & Data Sources
 
 | API             | Link                                               | Data Type                       | Key Info                                                           |

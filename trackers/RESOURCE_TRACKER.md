@@ -39,5 +39,4 @@ This is our go-to library for all external books, articles, tools, and datasets 
 ### 📰 Key Articles & Papers
 
 - [**The Unreasonable Effectiveness of Data**](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf) - Alon Halevy, Peter Norvig, and Fernando Pereira
-- [**A Gentle Introduction to Cross-Entropy for Machine Learning**](https://machinelearningmastery.com/cross-entropy-for-machine-learning/) - Jason Brownlee
 - [**How to Backtest a Trading Strategy**](https://www.investopedia.com/articles/trading/10/backtesting-your-strategy.asp) - Investopedia

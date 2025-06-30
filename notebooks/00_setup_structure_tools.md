@@ -1,6 +1,5 @@
 # Modern Python Project Setup: 
 
-## What You'll Learn
 
 By the end of this guide, you'll understand how to set up a Python project like a professional developer using four essential tools:
 
@@ -73,7 +72,6 @@ cd my-web-scraper
 uv venv
 
 # Activate the environment (this step is the same as before)
-# On macOS/Linux:
 source .venv/bin/activate
 
 # Add packages to your project (like pip install, but better)
@@ -95,7 +93,7 @@ uv pip list
 
 The Key to Reproducibility.
 
-The Problem: Your web-scraper works perfectly in development. You deploy to production (like an app) six months later, and it fails because requests released a breaking change, and your code installed the latest version automatically.
+The Problem: Your web-scraper works perfectly in development. You deploy to production (like an app) six months later, and it fails because `requests` released a breaking change, and your code installed the latest version automatically.
 
 Here's where `uv` really shines. Let's say your web scraper works perfectly today. How do you ensure it works exactly the same way six months from now?
 
@@ -158,7 +156,7 @@ my_project/
 
 #### What is TOML?
 
-TOML stands for "Tom's Obvious, Minimal Language." It's a configuration file format designed to be incredibly easy for humans to read. Its syntax is simple: key = "value" pairs grouped into [sections]. Python has officially adopted pyproject.toml (PEP 518 & PEP 621) as the single, unified file for project metadata and tool configuration.
+TOML stands for "Tom's Obvious, Minimal Language." It's a configuration file format designed to be incredibly easy for humans to read. Its syntax is simple: key = "value" pairs grouped into [sections]. 
 
 **Comparison of formats:**
 

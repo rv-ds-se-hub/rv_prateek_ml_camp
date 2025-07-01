@@ -1,5 +1,11 @@
-# Modern Python Project Setup: 
+---
+title: Modern Python Dev Toolkit
+author: Rishav Sharma
+date: 2025-07-01
+---
 
+# Modern Python Project Setup: 
+**Author:** _Rishav Sharma_ (Rv)
 
 By the end of this guide, you'll understand how to set up a Python project like a professional developer using four essential tools:
 

@@ -13,11 +13,13 @@ This is our go-to library for all external books, articles, tools, and datasets 
 
 ### 🛠️ Tools & Software
 
-| Tool            | Link                                                                      | Purpose                                                         |
-| :-------------- | :------------------------------------------------------------------------ | :-------------------------------------------------------------- |
-| **`uv`** | [github.com/astral-sh/uv](https://github.com/astral-sh/uv)                | An extremely fast Python package installer and resolver.        |
-| **`ruff`** | [github.com/astral-sh/ruff](https://github.com/astral-sh/ruff)            | An extremely fast Python linter and code formatter.             |
-| **Tabulator** | [github.com/tabulator-app/tabulator](https://github.com/tabulator-app/tabulator) | An excellent tool for viewing CSV/Parquet files.                |
+| Tool            | Link                                                                           | Purpose                                           |
+| :-------------- | :----------------------------------------------------------------------------- | :------------------------------------------------ |
+| **`uv`** | [github.com/astral-sh/uv](https://github.com/astral-sh/uv)                            | An extremely fast Python package installer and resolver. |
+| **`ruff`** | [github.com/astral-sh/ruff](https://github.com/astral-sh/ruff)                      | An extremely fast Python linter and code formatter. |
+| **Tabulator** | [github.com/tabulator-app/tabulator](https://github.com/tabulator-app/tabulator) | An excellent tool for viewing CSV/Parquet files. |
+| **pyproject.toml** | [what is pyproject.toml?](https://snarky.ca/what-the-heck-is-pyproject-toml/) | Effective Python configuration management. |
+
 
 
 ### Videos

@@ -16,7 +16,7 @@ More importantly, you'll understand *why* each tool exists and how they solve re
 
 ### The Story Every Python Developer Lives
 
-Imagine you're excited to build your first web scraper. You need `requests` for HTTP calls and `beautifulsoup4` for HTML parsing. Here's the journey most developers experience:
+Imagine you're excited to build your first [web scraper](https://realpython.com/python-web-scraping-practical-introduction/). You need `requests` for HTTP calls and `beautifulsoup4` for HTML parsing. Here's the journey most developers experience:
 
 **Day 1:** You run `pip install requests beautifulsoup4` globally. Everything works perfectly! 
 
@@ -71,7 +71,7 @@ cd my-web-scraper
 # Create a virtual environment (like python -m venv .venv)
 uv venv
 
-# Activate the environment (this step is the same as before)
+# Activate the environment
 source .venv/bin/activate
 
 # Add packages to your project (like pip install, but better)
@@ -93,7 +93,11 @@ uv pip list
 
 The Key to Reproducibility.
 
-The Problem: Your web-scraper works perfectly in development. You deploy to production (like an app) six months later, and it fails because `requests` released a breaking change, and your code installed the latest version automatically.
+The Problem: Your web-scraper works perfectly in development. You deploy to production (the app) six months later, and it fails because `requests` released a breaking change, and your code installed the latest version automatically.
+
+<pre>
+Note: The latest version (of requests in this case) will be installed automatically because the project's dependency file (like requirements.txt) specified requests in a way that didn't lock it to an exact version. If your dependency file just says requests or requests>=2.25.0, you're telling the installer, "Get me the newest version of requests that's at least version 2.25.0." Six months later, this could be a brand new major version with breaking changes.
+</pre>
 
 Here's where `uv` really shines. Let's say your web scraper works perfectly today. How do you ensure it works exactly the same way six months from now?
 
@@ -135,7 +139,7 @@ uv sync  # Gets the exact same versions that worked in development
 
 ### The Old Way: File Soup
 
-Traditional Python projects were a mess of configuration files:
+[Traditional Python projects](https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools/) were a mess of configuration files:
 
 ```
 my_project/
@@ -152,11 +156,11 @@ my_project/
 
 ### The Modern Solution: `pyproject.toml`
 
-`pyproject.toml` is Python's official standard (PEP 518 & PEP 621) for project configuration. It's a single file that contains everything about your project.
+`pyproject.toml` is Python's official standard ([PEP 518](https://peps.python.org/pep-0518/) & [PEP 621](https://peps.python.org/pep-0621/)) for project configuration. It's a single file that contains everything about your project.
 
 #### What is TOML?
 
-TOML stands for "Tom's Obvious, Minimal Language." It's a configuration file format designed to be incredibly easy for humans to read. Its syntax is simple: key = "value" pairs grouped into [sections]. 
+[TOML](https://toml.io/en/v1.0.0#objectives) stands for "Tom's Obvious, Minimal Language." It's a configuration file format designed to be incredibly easy for humans to read. Its syntax is simple: key = "value" pairs grouped into [tables]. 
 
 **Comparison of formats:**
 
@@ -234,7 +238,6 @@ python_files = ["test_*.py"]   # Test file naming pattern
 
 Your code works, but is it readable? Is it consistent? Is it hiding subtle bugs?
 
-
 ### Let's understand
 
 Imagine you're writing an important email to your teacher:
@@ -246,7 +249,7 @@ Imagine you're writing an important email to your teacher:
 
 **Linting** is like having an experienced colleague review for mistakes and clarity:
 - Did I mention an attachment but forget to attach it?
-- Am I using technical terms my boss won't understand?
+- Am I using technical terms my teacher won't appreciate?
 - Is this sentence so long it's confusing?
 
 > Formatting is about STYLE. It automatically rewrites your code to enforce a consistent look and feel (line length, quotes, spacing). It doesn't care about logic, only appearance.
@@ -488,7 +491,7 @@ make clean
 2. Activate: `source .venv/bin/activate`
 3. Install packages: `pip install requests beautifulsoup4`
 4. Remember to create: `requirements.txt`
-5. Configure tools: Create `.flake8`, `setup.cfg`, `pyproject.toml` for black
+5. Configure tools: Create `.flake8`, `setup.cfg`, etc.
 6. Install dev tools: `pip install black isort flake8 pytest`
 7. Remember commands: `black .`, `isort .`, `flake8 .`, `pytest`
 
@@ -510,7 +513,7 @@ make clean
 - Issues are fixed automatically
 - Everyone gets identical environments
 
-By following these steps, you have incrementally built a development environment that is:
+### By following these steps, you have incrementally built a development environment that is:
 
 1. Well-Defined (pyproject.toml): Your project has a single source of truth.
 

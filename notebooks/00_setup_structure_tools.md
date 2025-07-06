@@ -98,9 +98,8 @@ The Key to Reproducibility.
 
 The Problem: Your web-scraper works perfectly in development. You deploy to production (the app) six months later, and it fails because `requests` released a breaking change, and your code installed the latest version automatically.
 
-<pre>
-Note: The latest version (of requests in this case) will be installed automatically because the project's dependency file (like requirements.txt) specified requests in a way that didn't lock it to an exact version. If your dependency file just says requests or requests>=2.25.0, you're telling the installer, "Get me the newest version of requests that's at least version 2.25.0." Six months later, this could be a brand new major version with breaking changes.
-</pre>
+
+_**Note**: The latest version (of requests in this case) will be installed automatically because the project's dependency file (like requirements.txt) specified requests in a way that didn't lock it to an exact version. If your dependency file just says requests or requests>=2.25.0, you're telling the installer, "Get me the newest version of requests that's at least version 2.25.0." Six months later, this could be a brand new major version with breaking changes._
 
 Here's where `uv` really shines. Let's say your web scraper works perfectly today. How do you ensure it works exactly the same way six months from now?
 

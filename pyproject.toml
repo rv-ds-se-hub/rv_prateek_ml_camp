@@ -12,6 +12,8 @@ dependencies = [
     "matplotlib",
     "seaborn",
     "jupyterlab",
+    "ruff>=0.11.13",
+    "nbqa>=1.9.1",
 ]
 
 [project.optional-dependencies]

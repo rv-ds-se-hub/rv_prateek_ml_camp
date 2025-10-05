@@ -14,5 +14,5 @@ This log tracks our progress session by session. We'll update it after every cla
 | 05      | 3-Aug-2025    | 1: Python Foundations | Functions & Error Handling II  | ✅ Done      |                   
 | 06      | 31-Aug-2025   |    Weather API        | Working Session                | ✅ Done      |                   
 | 07      | 21-Sep-2025   |    Project Chitti     | Working Session                | ✅ Done      |                                      
-| 08      | 29-Sep-2025   | 1: Python Foundations | Functions & Error Handling III | ⏳ Scheduled |                  
-| 09      |               |                       |                                |              |                   
+| 08      | 05-Oct-2025   | 1: Python Foundations | Functions & Error Handling II  | ✅ Done.     |                  
+| 09      | 12-Oct-2025   |                       |                                |              |                   

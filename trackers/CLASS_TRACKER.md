@@ -18,8 +18,8 @@ This log tracks our progress session by session. We'll update it after every cla
 | 09      | 12-Oct-2025   | 1: Python Foundations | Pending HW & Review.           | ✅ Done      |
 | 10      | 26-Oct-2025   | Project Chitti        | Code Review                    | ✅ Done      |                   
 | 11      | 30-Nov-2025   | Catchup               |                                | ✅ Done      |                   
-| 12      | 30-Nov-2025   |                       |                                |              |                   
-| 13      | 12-Oct-2025   |                       |                                |              |                   
+| 12      | 14-Dec-2025   | 1: Python Foundations | Errors & Defensive code I      | ✅ Done      |                   
+| 13      | 28-Dec-2025   | 1: Python Foundations | Errors & Defensive code II     | ✅ Done      |                   
 | 14      | 12-Oct-2025   |                       |                                |              |                   
 | 15      | 12-Oct-2025   |                       |                                |              |                   
 | 16      | 12-Oct-2025   |                       |                                |              |                   

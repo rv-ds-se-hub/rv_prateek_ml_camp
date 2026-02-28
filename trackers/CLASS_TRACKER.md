@@ -20,8 +20,8 @@ This log tracks our progress session by session. We'll update it after every cla
 | 11      | 30-Nov-2025   | Catchup               |                                | ✅ Done      |                   
 | 12      | 14-Dec-2025   | 1: Python Foundations | Errors & Defensive code I      | ✅ Done      |                   
 | 13      | 28-Dec-2025   | 1: Python Foundations | Errors & Defensive code II     | ✅ Done      |                   
-| 14      | 12-Oct-2025   | 1: Python Foundations | Errors & Defensive code II     | ✅ Done      |                   
-| 15      | 12-Oct-2025   |                       |                                |              |                   
+| 14      | 15-Feb-2026   | 1: Python Foundations | Errors & Defensive code III    | ✅ Done      |                   
+| 15      | 22-Feb-2026   | 1: Python Foundations | Errors & Defensive code III    | ✅ Done      |                   
 | 16      | 12-Oct-2025   |                       |                                |              |                   
 | 17      | 12-Oct-2025   |                       |                                |              |                   
 | 18      | 12-Oct-2025   |                       |                                |              |                   

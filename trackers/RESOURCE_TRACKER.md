@@ -20,6 +20,7 @@ This is our go-to library for all external books, articles, tools, and datasets 
 | **`ruff`** | [github.com/astral-sh/ruff](https://github.com/astral-sh/ruff)                      | An extremely fast Python linter and code formatter. |
 | **Tabulator** | [github.com/tabulator-app/tabulator](https://github.com/tabulator-app/tabulator) | An excellent tool for viewing CSV/Parquet files. |
 | **pyproject.toml** | [what is pyproject.toml?](https://snarky.ca/what-the-heck-is-pyproject-toml/) | Effective Python configuration management. |
+|**Gemini CLI**| [Documentatouin](https://geminicli.com/docs/) | Learn usage, configs, best practices & advanced features |
 
 
 ### Videos
@@ -32,10 +33,11 @@ This is our go-to library for all external books, articles, tools, and datasets 
 
 ### 📰 Key Articles & Papers
 
-- [**Python Docstring Formats](https://stackoverflow.com/questions/3898572/what-are-the-most-common-python-docstring-formats)
+- [**Python Docstring Formats**](https://stackoverflow.com/questions/3898572/what-are-the-most-common-python-docstring-formats)
 - [**Programming: First Class Citizen**](https://en.wikipedia.org/wiki/First-class_citizen)
 - [**The Unreasonable Effectiveness of Data**](http://static.googleusercontent.com/media/research.google.com/en//pubs/archive/35179.pdf) - Alon Halevy, Peter Norvig, and Fernando Pereira
 - [**How to Backtest a Trading Strategy**](https://www.investopedia.com/articles/trading/10/backtesting-your-strategy.asp) - Investopedia
+- [**Developer Portfolios**](https://6e87v.hatchboxapp.com/)
 
 
 ### 🔗 APIs & Data Sources

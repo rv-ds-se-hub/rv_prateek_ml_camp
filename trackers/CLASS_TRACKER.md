@@ -23,6 +23,6 @@ This log tracks our progress session by session. We'll update it after every cla
 | 14      | 15-Feb-2026   | 1: Python Foundations | Errors & Defensive code III    | ✅ Done      |                   
 | 15      | 22-Feb-2026   | AI Side Quests        | AI coding Agents I             | ✅ Done      |                   
 | 16      | 01-Mar-2026   | AI Side Quests        | AI coding Agents II            | ✅ Done      |                   
-| 17      | 12-Oct-2025   |                       |                                |              |                   
+| 17      | 19-Apr-2026   | AI Side Quests        | Continued working on the extension (project) | ✅ Done      |                   
 | 18      | 12-Oct-2025   |                       |                                |              |                   
 
